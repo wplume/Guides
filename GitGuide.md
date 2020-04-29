@@ -34,3 +34,12 @@ Git命令行指南
 
 删除`.git`目录，或者删除整个目录
 解决冲突
+
+## 撤销已推送的提交
+
+1. 第一步
+`git log`查看提交历史
+2. 第二步
+`git reset --soft [回滚到指定版本号]`重置到指定版本号
+3. 第三步
+`git push [remote repo name] [branch name] --force`强制推送
