@@ -23,11 +23,13 @@ Git命令行指南
 - git reset --hard HEAD
 - git reset --hard [version number] 前7位
  
-- git remote add [remote repo name] http/ssh 添加到远程仓库
 - git push [remote repo name] [branch name]
 - git pull [remote repo name] [branch name]
 - git fetch [remote repo name] [branch name] 这个只是下载不merge，之后可以查看diff，再merge
+
+- git remote add [remote repo name] http/ssh 添加到远程仓库
 - git remote -v 查看当前有哪些远程仓库
+- git remote update [remote repo name] --prune 更新远程仓库列表
 
 - git config --global user.name "[user name]"
 - git config --global user.email "[user email]"
