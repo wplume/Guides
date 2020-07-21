@@ -8,11 +8,11 @@
 ## 列表模式1
 - 这是文本1
 - 这是文本2
- 
+
 ## 列表模式2
 1. 文本
 2. 文本
- 
+
 ## 链接
 [Open MyFirstMarkdown](https://github.com/337540029/MyFirstMarkdown)
 
@@ -25,25 +25,26 @@
 8   |1000|500
 9   |1200|600
 10  |1400|650
- 
+
 ## 斜体粗体
 *斜体1*
 
 _斜体2_
 
 **粗体**
- 
+
 ## 引用内容
 >这是引用的内用
- 
+
 ## 删除线
-~删除线~
- 
+~~删除线~~
+
 ## 代码
 ### 行内代码
 `int i = 0;`
+
 ### 多行代码
-```
+```java
 protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
